@@ -5,6 +5,7 @@ services:
     ports:
       - "3923:3923"
     volumes:
-      - /home/chyld/data/copyparty:/data
+      - /home/chyld/data/copyparty:/partyhome
+      - /mnt/truenas:/truenas
     restart: unless-stopped
 
